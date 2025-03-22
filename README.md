@@ -16,9 +16,9 @@ This repository contains the implementation for approximating betweenness and cl
 
 ⚡ We employ two models for approximation:
 
-🔸 GNN-Bet 🏆 for betweenness centrality
+🔸 GNN-Bet  for betweenness centrality
 
-🔸 GNN-Close 🌐 for closeness centrality
+🔸 GNN-Close  for closeness centrality
 
 ⚡ Embeddings are computed by multiplying the lookup table with the adjacency matrix derived from shortest paths.
 
