@@ -9,13 +9,26 @@ This repository contains the implementation for approximating betweenness and cl
 
 ## 🏗️ Model Framework
 ⚡ The model uses shortest paths for message aggregation.
+
+
 ⚡ It is inductive, meaning it can be trained on one graph set and evaluated on another.
+
+
 ⚡ We employ two models for approximation:
+
 🔸 GNN-Bet 🏆 for betweenness centrality
+
 🔸 GNN-Close 🌐 for closeness centrality
+
 ⚡ Embeddings are computed by multiplying the lookup table with the adjacency matrix derived from shortest paths.
+
+
 ⚡ The loss function used is margin loss 🎯.
+
+
 ⚡ Predictions are generated using multiple MLP layers 🧠.
+
+
 ⚡ Kendall Tau (KT) Score 📊 is used to evaluate the ranking performance.
 
 ## ⚡ Performance and Scalability
